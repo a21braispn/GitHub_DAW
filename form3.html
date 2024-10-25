@@ -7,7 +7,7 @@
 </head>
 <body>
     <img src="./planification.png" alt="" width="300 px">
-    <form action="planification.php">
+    <form action="nothing.php" method="post">
         <fieldset>
         <legend>Member Demographics</legend>
         <label for="Name">Name</label>
@@ -24,7 +24,7 @@
         <br>
         <br>
         <label for="Email">Email</label>
-        <input type="text" name="Email" id="Email">
+        <input type="email" name="Email" id="Email">
         </fieldset>
         <br>
         <br>
@@ -38,8 +38,8 @@
         <label for="Reservation">Select a reservation date and time:</label>
         <br>
         <br>
-        <input type="date" name="Reservation" id="Reservation">
-        <input type="time" name="Reservation" id="Reservation">
+        <input type="date" name="Reservation_Date" id="Reservation">
+        <input type="time" name="Reservation_Time" id="Reservation">
         <br>
         <br>
         <input type="checkbox" name="Agree" id="Agree">
